@@ -58,17 +58,6 @@
 
 ---
 
-## ▸ proyectos
-
-| proyecto | descripcion | stack |
-|----------|-------------|-------|
-| [Kropsale](https://github.com/Jn-Cod/Kropsale) | E-commerce full-stack: login seguro (JWT/bcrypt) y carrito, con base de datos SQLite | `ts` `react` `next` `sqlite` |
-| [Sistem](https://github.com/Jn-Cod/Sistem) | Sistema de planeaciones y reuniones: registro, login seguro y exportacion a PDF/DOCX sobre Turso | `js` `node` `express` `turso` `jwt` |
-| [EMORA](https://github.com/Jn-Cod/EMORA) | Sitio web con zonas para ninos, adultos e instituciones, con inicio de sesion y registro | `html` `css` `js` |
-| [mathfinger](https://github.com/Jn-Cod/mathfinger) | Herramienta web con ejercicios y logica de matematicas | `html` `css` `js` |
-
----
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Jn-Cod&label=visitas&color=22d3ee&style=flat-square" alt="visitas" />
   <img src="https://img.shields.io/github/followers/Jn-Cod?label=followers&style=flat-square&color=f472b6" alt="followers" />

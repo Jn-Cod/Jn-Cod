@@ -10,6 +10,10 @@
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
 
+    <clipPath id="round">
+      <rect x="0" y="0" width="1200" height="360" rx="20"/>
+    </clipPath>
+
     <clipPath id="c1"><rect x="110" y="92" width="0" height="42"><animate attributeName="width" from="0" to="122" dur="0.5s" begin="0.3s;9.3s" fill="freeze"/></rect></clipPath>
     <clipPath id="c2"><rect x="110" y="128" width="0" height="42"><animate attributeName="width" from="0" to="132" dur="0.5s" begin="1.2s;10.2s" fill="freeze"/></rect></clipPath>
     <clipPath id="c3"><rect x="110" y="172" width="0" height="42"><animate attributeName="width" from="0" to="192" dur="0.5s" begin="2.1s;11.1s" fill="freeze"/></rect></clipPath>
@@ -17,46 +21,48 @@
     <clipPath id="c5"><rect x="110" y="252" width="0" height="42"><animate attributeName="width" from="0" to="45" dur="0.3s" begin="4.3s;13.3s" fill="freeze"/></rect></clipPath>
   </defs>
 
-  <!-- terminal fills the whole banner (no background layer) -->
-  <rect x="0" y="0" width="1200" height="360" fill="#101010"/>
+  <g clip-path="url(#round)">
+    <!-- terminal fills the whole banner -->
+    <rect x="0" y="0" width="1200" height="360" fill="#101010"/>
 
-  <!-- title bar -->
-  <rect x="0" y="0" width="1200" height="46" fill="#1a1a1a"/>
-  <line x1="0" y1="46" x2="1200" y2="46" stroke="#2a2a2a" stroke-width="1"/>
-  <circle cx="34" cy="23" r="7" fill="#ff5f56"/>
-  <circle cx="62" cy="23" r="7" fill="#ffbd2e"/>
-  <circle cx="90" cy="23" r="7" fill="#27c93f"/>
-  <text x="600" y="28" font-family="'Fira Code',monospace" font-size="17" text-anchor="middle" fill="#e7e7e7">Jn-Cod - zsh</text>
+    <!-- title bar -->
+    <rect x="0" y="0" width="1200" height="46" fill="#1a1a1a"/>
+    <line x1="0" y1="46" x2="1200" y2="46" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="34" cy="23" r="7" fill="#ff5f56"/>
+    <circle cx="62" cy="23" r="7" fill="#ffbd2e"/>
+    <circle cx="90" cy="23" r="7" fill="#27c93f"/>
+    <text x="600" y="28" font-family="'Fira Code',monospace" font-size="17" text-anchor="middle" fill="#e7e7e7">Jn-Cod - zsh</text>
 
-  <!-- typed lines -->
-  <text x="110" y="118" font-family="'Fira Code',monospace" font-size="21" fill="#ffffff" clip-path="url(#c1)">$ whoami</text>
-  <text x="110" y="154" font-family="'Fira Code',monospace" font-size="21" fill="#d4d4d4" clip-path="url(#c2)">&gt;&gt; Jn-Cod</text>
-  <text x="110" y="198" font-family="'Fira Code',monospace" font-size="21" fill="#ffffff" clip-path="url(#c3)">$ cat rol.txt</text>
-  <text x="110" y="234" font-family="'Fira Code',monospace" font-size="21" fill="#9ca3af" clip-path="url(#c4)">full-stack developer (en formacion)</text>
-  <text x="110" y="278" font-family="'Fira Code',monospace" font-size="21" fill="#ffffff" clip-path="url(#c5)">$</text>
+    <!-- typed lines -->
+    <text x="110" y="118" font-family="'Fira Code',monospace" font-size="21" fill="#ffffff" clip-path="url(#c1)">$ whoami</text>
+    <text x="110" y="154" font-family="'Fira Code',monospace" font-size="21" fill="#d4d4d4" clip-path="url(#c2)">&gt;&gt; Jn-Cod</text>
+    <text x="110" y="198" font-family="'Fira Code',monospace" font-size="21" fill="#ffffff" clip-path="url(#c3)">$ cat rol.txt</text>
+    <text x="110" y="234" font-family="'Fira Code',monospace" font-size="21" fill="#9ca3af" clip-path="url(#c4)">full-stack developer (en formacion)</text>
+    <text x="110" y="278" font-family="'Fira Code',monospace" font-size="21" fill="#ffffff" clip-path="url(#c5)">$</text>
 
-  <!-- typing block cursors -->
-  <rect x="110" y="97" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
-    <animate attributeName="x" from="110" to="221" dur="0.5s" begin="0.3s;9.3s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.8;1" dur="0.5s" begin="0.3s;9.3s" fill="freeze"/>
-  </rect>
-  <rect x="110" y="133" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
-    <animate attributeName="x" from="110" to="230" dur="0.5s" begin="1.2s;10.2s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.8;1" dur="0.5s" begin="1.2s;10.2s" fill="freeze"/>
-  </rect>
-  <rect x="110" y="177" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
-    <animate attributeName="x" from="110" to="290" dur="0.5s" begin="2.1s;11.1s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.8;1" dur="0.5s" begin="2.1s;11.1s" fill="freeze"/>
-  </rect>
-  <rect x="110" y="213" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
-    <animate attributeName="x" from="110" to="582" dur="0.9s" begin="3.0s;12.0s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.9;1" dur="0.9s" begin="3.0s;12.0s" fill="freeze"/>
-  </rect>
-  <rect x="110" y="257" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
-    <animate attributeName="x" from="110" to="145" dur="0.3s" begin="4.3s;13.3s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0;1;0;1;0" keyTimes="0;0.2;0.4;0.6;0.8;1" dur="1s" begin="4.3s;13.3s" fill="freeze"/>
-  </rect>
+    <!-- typing block cursors -->
+    <rect x="110" y="97" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
+      <animate attributeName="x" from="110" to="221" dur="0.5s" begin="0.3s;9.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.8;1" dur="0.5s" begin="0.3s;9.3s" fill="freeze"/>
+    </rect>
+    <rect x="110" y="133" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
+      <animate attributeName="x" from="110" to="230" dur="0.5s" begin="1.2s;10.2s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.8;1" dur="0.5s" begin="1.2s;10.2s" fill="freeze"/>
+    </rect>
+    <rect x="110" y="177" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
+      <animate attributeName="x" from="110" to="290" dur="0.5s" begin="2.1s;11.1s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.8;1" dur="0.5s" begin="2.1s;11.1s" fill="freeze"/>
+    </rect>
+    <rect x="110" y="213" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
+      <animate attributeName="x" from="110" to="582" dur="0.9s" begin="3.0s;12.0s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.9;1" dur="0.9s" begin="3.0s;12.0s" fill="freeze"/>
+    </rect>
+    <rect x="110" y="257" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
+      <animate attributeName="x" from="110" to="145" dur="0.3s" begin="4.3s;13.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0;1;0;1;0" keyTimes="0;0.2;0.4;0.6;0.8;1" dur="1s" begin="4.3s;13.3s" fill="freeze"/>
+    </rect>
 
-  <!-- bottom accent line -->
-  <line x1="0" y1="316" x2="1200" y2="316" stroke="#9ca3af" stroke-width="1.5" opacity="0.4" filter="url(#glowMd)"/>
+    <!-- bottom accent line -->
+    <line x1="0" y1="316" x2="1200" y2="316" stroke="#9ca3af" stroke-width="1.5" opacity="0.4" filter="url(#glowMd)"/>
+  </g>
 </svg>

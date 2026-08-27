@@ -52,9 +52,10 @@
 
 | proyecto | descripcion | stack |
 |----------|-------------|-------|
-| [proyecto1](https://github.com/Jn-Cod) | resolver un problema real, explicado corto | `ts` `react` `node` |
-| [proyecto2](https://github.com/Jn-Cod) | resolver un problema real, explicado corto | `py` `fastapi` `db` |
-| [proyecto3](https://github.com/Jn-Cod) | resolver un problema real, explicado corto | `next` `tailwind` `vercel` |
+| [Kropsale](https://github.com/Jn-Cod/Kropsale) | E-commerce full-stack con login seguro y datos en tiempo real | `ts` `react` `next` `socket.io` `sqlite` |
+| [Sistem](https://github.com/Jn-Cod/Sistem) | Registro y exportacion de planeaciones y reuniones (Turso + login) | `js` `node` `express` `turso` `jwt` |
+| [EMORA](https://github.com/Jn-Cod/EMORA) | Sitio web con secciones para ninos, adultos e instituciones | `html` `css` `js` |
+| [mathfinger](https://github.com/Jn-Cod/mathfinger) | Proyecto web con logica de matematicas | `html` `css` `js` |
 
 ---
 

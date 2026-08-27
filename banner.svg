@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="85%">
+      <stop offset="0%" stop-color="#0e0e0e"/>
+      <stop offset="80%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#020202"/>
+    </radialGradient>
+    <linearGradient id="frame" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9ca3af"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#9ca3af"/>
+    </linearGradient>
+    <filter id="glowMd" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="c1"><rect x="110" y="92" width="0" height="42"><animate attributeName="width" from="0" to="122" dur="0.5s" begin="0.3s;9.3s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="110" y="128" width="0" height="42"><animate attributeName="width" from="0" to="132" dur="0.5s" begin="1.2s;10.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="110" y="172" width="0" height="42"><animate attributeName="width" from="0" to="192" dur="0.5s" begin="2.1s;11.1s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="110" y="208" width="0" height="42"><animate attributeName="width" from="0" to="482" dur="0.9s" begin="3.0s;12.0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="110" y="252" width="0" height="42"><animate attributeName="width" from="0" to="45" dur="0.3s" begin="4.3s;13.3s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+
+  <rect x="70" y="34" width="1060" height="292" rx="16" fill="#101010" stroke="url(#frame)" stroke-width="2"/>
+
+  <rect x="70" y="34" width="1060" height="46" rx="16" fill="#1a1a1a"/>
+  <rect x="70" y="58" width="1060" height="22" fill="#1a1a1a"/>
+  <circle cx="108" cy="57" r="7" fill="#3a3a3a"/>
+  <circle cx="132" cy="57" r="7" fill="#3a3a3a"/>
+  <circle cx="156" cy="57" r="7" fill="#3a3a3a"/>
+  <text x="600" y="62" font-family="'Fira Code',monospace" font-size="17" text-anchor="middle" fill="#e7e7e7">Jn-Cod - zsh</text>
+
+  <!-- typed lines -->
+  <text x="110" y="118" font-family="'Fira Code',monospace" font-size="21" fill="#ffffff" clip-path="url(#c1)">$ whoami</text>
+  <text x="110" y="154" font-family="'Fira Code',monospace" font-size="21" fill="#d4d4d4" clip-path="url(#c2)">&gt;&gt; Jn-Cod</text>
+  <text x="110" y="198" font-family="'Fira Code',monospace" font-size="21" fill="#ffffff" clip-path="url(#c3)">$ cat rol.txt</text>
+  <text x="110" y="234" font-family="'Fira Code',monospace" font-size="21" fill="#9ca3af" clip-path="url(#c4)">full-stack developer (en formacion)</text>
+  <text x="110" y="278" font-family="'Fira Code',monospace" font-size="21" fill="#ffffff" clip-path="url(#c5)">$</text>
+
+  <!-- typing block cursors: hidden by default, appear only while each line types -->
+  <rect x="110" y="97" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
+    <animate attributeName="x" from="110" to="221" dur="0.5s" begin="0.3s;9.3s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.8;1" dur="0.5s" begin="0.3s;9.3s" fill="freeze"/>
+  </rect>
+
+  <rect x="110" y="133" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
+    <animate attributeName="x" from="110" to="230" dur="0.5s" begin="1.2s;10.2s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.8;1" dur="0.5s" begin="1.2s;10.2s" fill="freeze"/>
+  </rect>
+
+  <rect x="110" y="177" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
+    <animate attributeName="x" from="110" to="290" dur="0.5s" begin="2.1s;11.1s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.8;1" dur="0.5s" begin="2.1s;11.1s" fill="freeze"/>
+  </rect>
+
+  <rect x="110" y="213" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
+    <animate attributeName="x" from="110" to="582" dur="0.9s" begin="3.0s;12.0s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.9;1" dur="0.9s" begin="3.0s;12.0s" fill="freeze"/>
+  </rect>
+
+  <!-- final cursor: parks after the $, blinks a few times, then fades out -->
+  <rect x="110" y="257" width="14" height="24" fill="#ffffff" rx="2" opacity="0">
+    <animate attributeName="x" from="110" to="145" dur="0.3s" begin="4.3s;13.3s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1;0;1;0" keyTimes="0;0.2;0.4;0.6;0.8;1" dur="1s" begin="4.3s;13.3s" fill="freeze"/>
+  </rect>
+
+  <rect x="70" y="80" width="4" height="200" fill="#9ca3af" opacity="0.7" filter="url(#glowMd)"/>
+
+  <line x1="70" y1="316" x2="1130" y2="316" stroke="#9ca3af" stroke-width="1.5" opacity="0.4" filter="url(#glowMd)"/>
+</svg>

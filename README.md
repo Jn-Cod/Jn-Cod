@@ -17,22 +17,22 @@
   </tr>
   <tr>
     <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" alt="TypeScript" width="34" height="34" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JavaScript" width="34" height="34" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="34" height="34" />
+      <a href="https://www.typescriptlang.org" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/typescript" alt="TypeScript" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
+      <a href="https://developer.mozilla.org/docs/Web/JavaScript" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
+      <a href="https://www.python.org" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/python" alt="Python" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
     </td>
     <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="34" height="34" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" width="34" height="34" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="34" height="34" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="34" height="34" />
+      <a href="https://react.dev" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/react" alt="React" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
+      <a href="https://nextjs.org" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/nextdotjs" alt="Next.js" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
+      <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/html5" alt="HTML5" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
+      <a href="https://developer.mozilla.org/docs/Web/CSS" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/css" alt="CSS3" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
     </td>
     <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="34" height="34" />
+      <a href="https://nodejs.org" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/nodedotjs" alt="Node.js" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
     </td>
     <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite" width="34" height="34" />
-      <img src="https://img.shields.io/badge/Turso-4B32C3?style=for-the-badge&logo=turso&logoColor=white" />
+      <a href="https://www.sqlite.org" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/sqlite" alt="SQLite" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
+      <a href="https://turso.tech" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/turso" alt="Turso" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
     </td>
   </tr>
   <tr>
@@ -43,19 +43,19 @@
   </tr>
   <tr>
     <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="34" height="34" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="34" height="34" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="npm" width="34" height="34" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" alt="ESLint" width="34" height="34" />
+      <a href="https://git-scm.com" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/git" alt="Git" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
+      <a href="https://github.com" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/github" alt="GitHub" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
+      <a href="https://www.npmjs.com" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/npm" alt="npm" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
+      <a href="https://eslint.org" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/eslint" alt="ESLint" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
+      <a href="https://playwright.dev" target="_blank" style="text-decoration:none"><img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" /></a>
     </td>
     <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="34" height="34" />
+      <a href="https://github.com/features/actions" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/githubactions" alt="GitHub Actions" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+      <a href="https://vercel.com" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/vercel" alt="Vercel" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
     </td>
   </tr>
 </table>

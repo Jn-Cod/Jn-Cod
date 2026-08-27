@@ -2,12 +2,6 @@
   <img src="banner.svg" alt="banner" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Jn-Cod&label=visitas&color=22d3ee&style=flat-square" alt="visitas" />
-  <img src="https://img.shields.io/github/followers/Jn-Cod?label=followers&style=flat-square&color=f472b6" alt="followers" />
-  <img src="https://img.shields.io/github/stars/Jn-Cod?label=stars&style=flat-square&color=a78bfa" alt="stars" />
-</p>
-
 <br>
 
 ---
@@ -61,4 +55,12 @@
 | [proyecto1](https://github.com/Jn-Cod) | resolver un problema real, explicado corto | `ts` `react` `node` |
 | [proyecto2](https://github.com/Jn-Cod) | resolver un problema real, explicado corto | `py` `fastapi` `db` |
 | [proyecto3](https://github.com/Jn-Cod) | resolver un problema real, explicado corto | `next` `tailwind` `vercel` |
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Jn-Cod&label=visitas&color=22d3ee&style=flat-square" alt="visitas" />
+  <img src="https://img.shields.io/github/followers/Jn-Cod?label=followers&style=flat-square&color=f472b6" alt="followers" />
+  <img src="https://img.shields.io/github/stars/Jn-Cod?label=stars&style=flat-square&color=a78bfa" alt="stars" />
+</p>
 

@@ -35,7 +35,7 @@
 
     <!-- typed lines -->
     <text x="110" y="118" font-family="'Fira Code',monospace" font-size="21" fill="#ffffff" clip-path="url(#c1)">$ whoami</text>
-    <text x="110" y="154" font-family="'Fira Code',monospace" font-size="21" fill="#d4d4d4" clip-path="url(#c2)">&gt;&gt; Jannel-Cod</text>
+    <text x="110" y="154" font-family="'Fira Code',monospace" font-size="21" fill="#d4d4d4" clip-path="url(#c2)">&gt;&gt; Jan-Cod</text>
     <text x="110" y="198" font-family="'Fira Code',monospace" font-size="21" fill="#ffffff" clip-path="url(#c3)">$ cat rol.txt</text>
     <text x="110" y="234" font-family="'Fira Code',monospace" font-size="21" fill="#9ca3af" clip-path="url(#c4)">Developer (en formacion)</text>
     <text x="110" y="278" font-family="'Fira Code',monospace" font-size="21" fill="#ffffff" clip-path="url(#c5)">$</text>

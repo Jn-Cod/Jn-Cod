@@ -56,3 +56,13 @@
   </tr>
 </table>
 
+<br><br>
+
+---
+
+## ▸ contribuciones
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Jn-Cod/Jn-Cod/output/github-snake-dark.gif" alt="snake" width="100%" />
+</p>
+

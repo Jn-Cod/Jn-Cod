@@ -68,11 +68,11 @@
       <b>escritorio & móvil</b><br>
       <a href="https://www.electronjs.org" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/electron" alt="Electron" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
       <a href="https://capacitorjs.com" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/capacitor" alt="Capacitor" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
-      <a href="https://nwjs.io" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/nwdotjs" alt="NW.js" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
+      <a href="https://nwjs.io" target="_blank" style="text-decoration:none"><img src="https://img.shields.io/badge/NW.js-0E8A16?style=for-the-badge&logo=nw.js&logoColor=white" alt="NW.js" /></a>
     </td>
     <td style="border:none;background-color:transparent;vertical-align:top">
       <b>juegos & 3d</b><br>
-      <a href="https://godotengine.org" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/godot" alt="Godot" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
+      <a href="https://godotengine.org/es/" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/godotengine" alt="Godot" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
       <a href="https://threejs.org" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/threedotjs" alt="Three.js" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
       <a href="https://gsap.com" target="_blank" style="text-decoration:none"><img src="https://cdn.simpleicons.org/gsap" alt="GSAP" width="30" height="30" style="background-color:#0d0d0d;border-radius:6px;padding:6px" /></a>
     </td>
